@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/isotipodorado.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="noticia.css">
+    <title>Nievas Karate</title>
+</head>
+<body>
+    <!-- Comienzo del header -->
+    <header class="header">
+        <a href="index.html#" class="logo">
+            <img src="images/blancohorizontal.png" alt="Nievas Karate Logo">
+        </a>
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <a href="index.html#home">Home</a>
+            <a href="index.html#about">Sobre nosotros</a>
+            <a href="index.html#pricing">Horarios</a>
+            <a href="index.html#features">Características</a>
+            <a href="index.html#blogs">Noticias</a>
+            <a href="index.html#testimonios">Testimonios</a>
+            <a href="./calend.html" class="instagram-btn" target=_blank>
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+            </a>
+        </nav>
+        
+    </header>
+    <!-- Fin del header -->
+
+    <!-- Comienzo de la sección de noticias -->
+    
+    <main class="noticia-container">
+        <h1 id="titulo" class="noticia-titulo"></h1>
+    
+        <div class="noticia-content">
+            <!-- Carrusel para imágenes en móviles -->
+            <div class="swiper-container" id="imagenes-swiper">
+                <div class="swiper-wrapper" id="imagenes">
+                    <!-- Las imágenes se insertarán aquí dinámicamente -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+            
+            <!-- Columna de imágenes para PC -->
+            <div class="imagenes-columna" id="imagenes-columna">
+                <!-- Las imágenes se insertarán aquí dinámicamente -->
+            </div>
+    
+            <!-- Contenido del texto -->
+             
+            
+
+        </div>
+        <div class="contenedor-texto">
+                <p id="texto" class="noticia-texto"></p>
+             </div>
+    </main>
+    
+
+    <!-- Fin de la sección de noticias -->
+
+    <!-- comienzo del pie de página -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-location">
+                <h3>Ubicación</h3>
+                <p>Rodriguez Peña 2842, Mar del Plata</p>
+            </div>
+            <div class="footer-social">
+                <h3>Síguenos en Instagram</h3>
+                <a href="https://www.instagram.com/nievaskarate?utm_source=ig_web_button_share_sheet&igshid=ZDNlZDc0MzIxNw==" class="instagram-btn" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="footer-rights">
+                <p>&copy; 2024 Diaz Naso Ariel, Joaquin Erquega Trofa . Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- fin del pie de página -->
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="noticia.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
+
+

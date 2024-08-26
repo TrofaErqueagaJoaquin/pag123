@@ -1,0 +1,165 @@
+/* General styles for the noticia page */
+body {
+    width: 100%;
+    background-color: #111; /* Asegura un buen contraste con el texto */
+    color: #fff; /* Texto blanco para mejor visibilidad */
+    font-size: 1.6rem; /* Ajuste general del tamaño del texto */
+    line-height: 1.6; /* Mejora la legibilidad */
+    margin-top: 7rem; /* Compensa el header fijo */
+}
+
+/* Título de la noticia */
+h1 {
+    font-size: 4rem; /* Aumenta el tamaño del título */
+    color: #006eff; /* Aplica el color principal del tema */
+    text-align: center; /* Centra el título */
+    margin-bottom: 2rem; /* Espacio debajo del título */
+    z-index: 10; /* Asegura que el título esté por encima del nav */
+    position: relative; /* Posicionamiento relativo para z-index */
+}
+
+/* Texto de la noticia */
+.article-text {
+    font-size: 1.8rem; /* Aumenta el tamaño del texto */
+    color: #aaa; /* Aplica un color más claro para legibilidad */
+    text-align: justify; /* Justifica el texto para un aspecto más ordenado */
+}
+
+/* Imagen dentro del artículo */
+.article-image {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0; /* Espacio arriba y abajo de la imagen */
+    border-radius: 0.5rem; /* Bordes redondeados para la imagen */
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.5rem; /* Ajuste de tamaño para dispositivos móviles */
+    }
+
+    .article-text {
+        font-size: 1.6rem; /* Ajuste de tamaño para dispositivos móviles */
+        padding: 0 5%; /* Reducir el padding en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 3rem; /* Ajuste adicional para pantallas más pequeñas */
+    }
+
+    .article-text {
+        font-size: 1.5rem; /* Ajuste adicional para pantallas más pequeñas */
+        padding: 0 2%; /* Ajusta el padding en pantallas pequeñas */
+    }
+}
+/* Estilo para la visualización de imágenes en columnas para pantallas grandes */
+.imagenes-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Espacio entre imágenes */
+}
+
+.imagenes-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.contenedor-texto{
+    margin-bottom: 10vh;
+}
+
+.contenedor-texto p{
+    display: inline;
+}
+
+.noticia-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.noticia-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .noticia-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem; 
+    }
+
+    
+
+    #imagenes-swiper {
+        display: block;  
+        width: 35%; 
+    }
+
+    .imagenes-columna {
+        width: 0%; 
+    }
+
+    .noticia-texto {
+        width: 60%; 
+        font-size: 2rem; 
+        line-height: 1.8;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 65vh; /* Ocupa toda la pantalla en móviles */
+    }
+
+    .footer{
+        margin:10vh;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: 60vh; /* Las imágenes ocupan toda la pantalla */
+        object-fit: cover; /* Asegura que las imágenes cubran toda la pantalla */
+    }
+    
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: 8vh;
+        }
+}
+
+
+@media (max-width: 1024px) {
+    
+
+    #imagenes-swiper {
+        display: block; /* Muestra el carrusel en móviles */
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 65vh; /* Ocupa toda la pantalla en móviles */
+    }
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+bottom: 25vh;
+}
+    .swiper-slide img {
+        width: 100%;
+        height: 60vh; /* Las imágenes ocupan toda la pantalla */
+        object-fit: cover; /* Asegura que las imágenes cubran toda la pantalla */
+    }
+
+
+}
+
+
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal span{
+    border-radius: 100%;
+}

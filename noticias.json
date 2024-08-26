@@ -1,0 +1,16 @@
+{
+    "noticias": [
+        {
+            "id": 1,
+            "titulo":"Fin de año 2023 ",
+            "texto": "El cierre de año en Nievas Karate es un momento especial de reflexión y celebración, donde reconocemos el arduo trabajo y el crecimiento de cada uno de nuestros estudiantes. Bajo la guía experta de nuestro único sensei, Francisco Nievas, hemos visto cómo cada karateca ha avanzado no solo en su técnica, sino también en su desarrollo personal. Este año, muchos han alcanzado nuevos cinturones, y algunos incluso han brillado en competencias, llevando con orgullo el nombre de Nievas Karate. Queremos agradecer profundamente a Sensei Nievas por su dedicación incansable, y a las familias que han apoyado este camino con tanto compromiso. El dojo es más que un lugar de entrenamiento; es una comunidad unida por valores como el respeto, la perseverancia y la humildad. Este año hemos superado desafíos juntos, dentro y fuera del tatami, y hemos crecido como individuos y como grupo. Con orgullo celebramos este año de éxitos y nos preparamos para recibir el próximo con la misma energía y determinación. ¡Osu!",
+            "imagenes": ["images/WhatsApp Image 2024-06-04 at 12.29.42 PM (2).jpeg", "images/sin título-6558.jpg", "images/sin título-6643.jpg"]
+        },
+        {
+            "id": 2,
+            "titulo": "Título de la Noticia 2",
+            "texto": "Contenido de la notLorem ipsum dolor sit amet consectetur adipiscing elit interdum, fermentum quisque curae habitasse laoreet egestas phasellus ut, vivamus risus varius rhoncus elementum lacinia lobortis. Odio ultrices malesuada pulvinar litora sapien sodales augue conubia pharetra nullam, ligula nunc donec eros lacus purus posuere volutpat tincidunt, phasellus vivamus sagittis tellus pretium platea ad rhoncus inceptos. A vivamus inceptos facilisis rutrum eleifend aliquam aliquet luctus donec, torquent euismod cras curabitur commodo dis morbi sem tempor facilisi, bibendum turpis non vehicula dictumst pellentesque penatibus odio.",
+            "imagenes": ["images/news.jpg", "images/news.jpg", "images/news.jpg"]
+        }
+    ]
+}
